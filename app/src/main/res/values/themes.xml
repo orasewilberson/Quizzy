@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quizzy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+<!--         <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Couleur du Status Bar -->
+        <item name="android:statusBarColor">#062abb</item>
+
+        <!-- Couleur de la Navigation Bar (en bas de l'écran) -->
+<!--        <item name="android:navigationBarColor">#062abb</item>-->
+
+        <!-- Active la fusion avec le Status Bar -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- Modifier la couleur du texte du Toolbar -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <!-- Modifier la couleur de la flèche de retour -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.Quizzy" parent="Base.Theme.Quizzy" />
+</resources>

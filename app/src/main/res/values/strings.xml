@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_to_superquiz">Bienvenue dans Quizzy</string>
+    <string name="what_s_your_name">Quel votre nom?</string>
+    <string name="let_s_play">Demarrer</string>
+    <string name="please_type_your_name">taper votre nom</string>
+
+    <!-- Gestion text MenuItem   -->
+    <string name="menu">Menu</string>
+    <string name="myHistory">Mon historique</string>
+    <string name="allHistory">Historique global</string>
+    <string name="setting">Parametres</string>
+    <string name="theme">Changer le theme</string>
+    <string name="delete">supprimer</string>
+
+
+</resources>

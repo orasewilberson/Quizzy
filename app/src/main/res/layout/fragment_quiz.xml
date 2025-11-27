@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="50dp"
+    android:padding="10dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_margin="16dp"
+        android:padding="4dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_question_card"
+        android:elevation="4dp"
+        tools:text="Question ?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="16dp">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/answer1"
+            style="@style/AnswerButton"
+            tools:text="Answer1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/answer2"
+            style="@style/AnswerButton"
+            tools:text="Answer2"
+            android:layout_marginTop="12dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/answer3"
+           style="@style/AnswerButton"
+            tools:text="Answer3"
+            android:layout_marginTop="12dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/answer4"
+            style="@style/AnswerButton"
+            tools:text="Answer4"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <TextView
+            android:id="@+id/validityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="18sp"
+            tools:text="💪 Bonne reponse !"
+            android:textAlignment="textEnd"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:text="Suivant"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+    </LinearLayout>
+
+</LinearLayout>
